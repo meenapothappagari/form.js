@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="form.js" ></script>
+    
+    <style>
+        body{
+         
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            width: 30%;
+            border: 2px solid black;
+        }
+        #btn{
+            background: rgb(2, 107, 2);
+            margin-left: 140px;
+
+        } 
+        
+        span{
+            position: relative;
+            top: 20px;
+            right: 170px;
+        }
+     </style>
+</head>
+<body>
+    <h1>task assignment form</h1>
+    <form action="formbhaiya.html">
+        <form id="form">
+            <label for="firstname" style="margin-left: 30px;">Employee Name:</label><br><br>
+            <input type="text" name="firstname" id="firstname" style="margin-left: 25px;"> <span >firstName</span>
+            <input type="text" name="lastname" id="lastname" style="margin-left: 25px;"> <span >LastName</span><br><br><br><br>
+            
+            <label for="managername" style="margin-left: 30px;"></label>>Manager Name:</label><br><br>
+            <input type="text" name="manager" id="managername" style="margin-left: 25px;">  <span >firstName</span>
+            <input type="text" name="managerName" id="managername" style="margin-left: 25px;"> <span >LastName</span><br><br><br><br>
+            
+            <label for="task" style="margin-left: 25px;"></label>Task:</label><label for="task" style="margin-left: 12%;"></label>Task ID</label><br><br>
+            <input type="text" name="task" id="task" style="margin-left: 25px;"> 
+
+            <input type="text" name="taskid" id="taskid"  style="margin-left: 25px;"><br><br><br><br>
+            
+            <label style="margin-left: 25px;"></label>>Status</label><br><br>
+            <input type="radio" name="status" value="Not Started" style="margin-left: 25px;">Not Started<br>
+            <input type="radio" name="status" value="In Progress" style="margin-left: 25px;">In Progress<br>
+            <input type="radio" name="status" value="Done" style="margin-left: 25px;">Done<br>
+            <input type="radio" name="status" value="Awaiting Feedback" style="margin-left: 25px;">>Awaiting Feedback<br><br>
+            
+            <label style="margin-left: 30px;"></label>>Additional Notes:</label><br><br>
+            <textarea style="margin-left: 30px;"placeholder="Type here....." id="additionalNotes" style="height: 70px; width: 400px;"></textarea> <br><br>
+            
+            <label style="margin-left: 30px;"></label>Instructions</label><br><br>
+            <textarea style="margin-left: 30px;"id="instructions" style="height: 50px; width: 400px;"></textarea> <br><br>
+        <button id="btn">Submit</button>
+        </form>
+    </form>
+    
+    
+    
+
+
+
+</body>
+
+    
+</html>
